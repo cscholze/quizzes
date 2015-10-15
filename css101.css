@@ -1,0 +1,35 @@
+header {
+	border: 1px solid blue;
+}
+header nav {
+	list-style: none;
+	word-spacing: 5em;
+	padding: 1em;
+}
+.disabled {
+	color: grey;
+}
+a .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+.parent > div > div:nth-child(1) {
+	color: red;
+}
+.parent > div > div:nth-child(3) {
+	color: blue;
+}
+.parent > div > div:nth-child(1) + h4 {
+	background-color: red;
+}
+.parent > div > div:nth-child(3) + h4 {
+	background-color: blue;
+}
+.grandparent > h4 {
+	border: 1px dotted green;
+	border-radius: 5px;
+
+}
